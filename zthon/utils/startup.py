@@ -142,7 +142,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "zthon/zilzal/logozed.jpg")
+            await bot.send_file("@BotFather", "zthon/athon/logoad.jpg")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setabouttext")
             await asyncio.sleep(1)
@@ -278,7 +278,7 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Tepthon.jpg")
+        photozed = await zedub.upload_file(file="adthon/malath/Adthon.jpg")
         _, groupid = await create_supergroup(
             "كـروب السجـل ادثون", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
@@ -307,7 +307,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ اثناء التعرف على فار PM_LOGGER_GROUP_ID.\n" + str(e))
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن رسـائل الخـاص.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Tep.jpg")
+        photozed = await zedub.upload_file(file="adthon/malath/Add.jpg")
         _, groupid = await create_supergroup(
             "كـروب التخـزين", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
