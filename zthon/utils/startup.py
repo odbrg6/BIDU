@@ -80,7 +80,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b920419da499a55479a15.jpg",
+                "https://graph.org/file/41397544bbc5756012186.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ادثون الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐞𝐩𝐭𝐡𝐨𝐧", "https://t.me/adthon"),)],
             )
