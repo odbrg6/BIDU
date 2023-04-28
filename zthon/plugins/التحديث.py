@@ -96,7 +96,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
     heroku = heroku3.from_key(HEROKU_API_KEY)
     heroku_applications = heroku.apps()
     if HEROKU_APP_NAME is None:
-        await event.edit(f"ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐀𝐃𝐓𝐇𝐎𝐍   - تحـديثـات السـورس\n **•─────────────────•**\n** ⪼ لم تقـم بوضـع مربـع فـار HEROKU_APP_NAME اثنـاء التنصيب وهـذا خطـأ .. قم بضبـط المتغيـر أولاً لتحديث بوت تـيـبـثون ..؟!**", link_preview=False)
+        await event.edit(f"ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝐀𝐃𝐓𝐇𝐎𝐍   - تحـديثـات السـورس\n **•─────────────────•**\n** ⪼ لم تقـم بوضـع مربـع فـار HEROKU_APP_NAME اثنـاء التنصيب وهـذا خطـأ .. قم بضبـط المتغيـر أولاً لتحديث بوت ادثون ..؟!**", link_preview=False)
         repo.__del__()
         return
     heroku_app = next(
