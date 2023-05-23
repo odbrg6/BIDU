@@ -94,7 +94,7 @@ async def cpu(event):
     cmd = "zed /proc/cpuinfo | grep 'model name'"
     o = (await _zedutils.runcmd(cmd))[0]
     await edit_or_reply(
-        event, f"**[Tepthon](tg://need_update_for_some_feature/) CPU Model:**\n{o}"
+        event, f"**[adthon](tg://need_update_for_some_feature/) CPU Model:**\n{o}"
     )
 
 
