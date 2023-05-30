@@ -69,13 +69,13 @@ zel_dev = (6007372789)
 plugin_category = "الادمن"
 
 
-ADMZ = gvarstatus("رفع مشرف") or "رفع مشرف"
-UNADMZ = gvarstatus("تنزيل مشرف") or "تنزيل مشرف"
-BANN = gvarstatus("حظر") or "حظر"
-UNBANN = gvarstatus("الغاء حظر") or "الغاء حظر"
-MUTE = gvarstatus("كتم") or "كتم"
-UNMUTE = gvarstatus("الغاء كتم") or "الغاء كتم"
-KICK = gvarstatus("طرد") or "طرد"
+ADMZ = gvarstatus("Z_ADMIN") or "رفع مشرف"
+UNADMZ = gvarstatus("Z_UNADMIN") or "تنزيل مشرف"
+BANN = gvarstatus("Z_BAN") or "حظر"
+UNBANN = gvarstatus("Z_UNBAN") or "الغاء حظر"
+MUTE = gvarstatus("Z_MUTE") or "كتم"
+UNMUTE = gvarstatus("Z_UNMUTE") or "الغاء كتم"
+KICK = gvarstatus("Z_KICK") or "طرد"
 # ================================================
 
 
